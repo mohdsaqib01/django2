@@ -1,0 +1,66 @@
+.container{
+    border: 2px solid white;
+    background-color: white;
+    height: 50%;
+    width: 30%;
+    margin: auto;
+     padding-inline: 20px;
+     padding-right: 20px;
+    font-family: serif;
+    border-radius: 10px;
+     /* padding-right: 3rem;  */
+
+    
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    text-align: center;
+}
+input{
+    
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: rgba(195, 207, 205, 0.468);
+    padding: .7rem;
+    border-radius: 5px;
+    
+    
+    
+}
+.btn{
+    text-align: center;
+}
+button{
+    width: 100%;
+    background-color: rgba(41, 219, 236, 0.817);
+    border-radius: 5px;
+    padding: .7rem;
+    color: white;
+    border: none;
+    margin-bottom: 1rem;
+
+}
+.ac{
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+button:hover{
+    background-color: rgba(71, 71, 234, 0.731);
+    font-size: large;
+}
+a:hover{
+    color: rgba(231, 41, 41, 0.856);
+    font-size: large;
+}
+input:hover{
+    font-size: large;
+}
+
+/* i have already given the 100% with and padding 20px in the parent tag but still size is not getting same */
