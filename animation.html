@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            animation-name: saqib;
+            animation-duration: 3s;
+        }
+        @keyframes saqib{
+            form{background-color: aquamarine; height: 50px; width: 50px;}
+            to{background-color: blue; border-radius: 20px;}
+        }
+         h1{
+            color: blueviolet;
+            animation-name: A;
+            animation-duration: 2s;
+            
+        }
+        @keyframes A{
+            from{ color: blueviolet; font-size: small;
+            }
+            to{ color: brown; font-size: large; text-decoration: underline;}
+        }
+        h2{
+            animation-name: saq;
+            animation-duration: 4s;
+        }
+        @keyframes saq{
+            0%{color: red; font-size: 50px;rotate: 0deg;}
+            40%{ color: blue; font-size: 30px; rotate: 40deg}
+            60%{color: green; font-size: 80px;rotate: 60deg}
+            100%{color: red; font-size: 50px; rotate: 0deg; }
+        } 
+        .anim{
+            animation-name: ani;
+            animation-duration: 3s;
+            height: 100px;
+            width: 100px;
+            background-color: bisque;
+            position: relative;
+        }
+        @keyframes ani{
+           0%{background-color: green; left: 0px; top: 0px;}
+           100%{background-color: aqua; left: 100px; top: 20px;}
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"> Animation</h1>
+    <div>
+
+    </div>
+    <h2>mohd saqib</h2>
+    <div class="anim"></div>
+</body>
+</html>

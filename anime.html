@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: an;
+            animation-duration: 4s;
+            animation-iteration-count: 3;
+        }
+        @keyframes an{
+            0%{background-color: red;left: 0px; top: 0px;}
+            25%{background-color:green;left: 100px; top: 0px;}
+            50%{background-color: yellow; left: 100px; top:100px;}
+            75%{background-color: blue;left: 0px; top: 100px;}
+            100%{background-color: red;left: 0px; top: opx;} 
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
